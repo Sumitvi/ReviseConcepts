@@ -8,6 +8,6 @@ public class Basic {
 
 
 //        Operators
-        
+        int a = 20;
     }
 }
