@@ -1,0 +1,17 @@
+package org.example.corejava;
+import java.util.*;
+
+public class MultiplicationTable {
+
+    public static void main(String args[]){
+
+//      Print multiplication table of a given number
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for(int i=1; i<=n; i++){
+            System.out.println(n + "*" + i + "=" + n * i);
+        }
+
+    }
+}
