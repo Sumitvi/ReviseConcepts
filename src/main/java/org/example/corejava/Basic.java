@@ -9,5 +9,10 @@ public class Basic {
 
 //        Operators
         int a = 20;
+        int b = 10;
+
+        System.out.println("Addition");
+        System.out.println(a + b);
+
     }
 }
