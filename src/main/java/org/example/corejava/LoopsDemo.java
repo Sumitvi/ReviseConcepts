@@ -21,6 +21,12 @@ public class LoopsDemo {
         }
 
 
-        
+//        Do While Loop
+        int n = 10;
+
+        do{
+            System.out.println("Do While Loop Runs at Once");
+            n--;
+        }while( n > 0);
     }
 }
