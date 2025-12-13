@@ -1,4 +1,4 @@
-package org.example.corejava.abstrction;
+package org.example.corejava.oops.inheritance.abstrction;
 
 
 abstract class Vehicle{
@@ -34,6 +34,9 @@ public class AbstructionDemo {
     Vehicle b1 = new Bike();
     b1.start();
     b1.stop();
+
+//    Abstruct class ka object nahi ban skta
+//    Abstruct class me non abstruct method allow hoti hai
 
 
     }
