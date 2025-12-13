@@ -12,11 +12,28 @@ class Info{
 
 }
 
+
+class SingleExe extends Info{
+
+    int age = 21;
+
+    public void standard(){
+        System.out.println(super.std);
+    }
+
+    public int getAge(int age){
+        return age;
+    }
+
+}
+
 public class SingleInheriDemo {
 
     public static void main(String args[]){
 
 //        Single Level Inheritance
+
+        SingleExe 
 
     }
 }
