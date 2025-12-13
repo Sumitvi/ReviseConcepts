@@ -18,6 +18,8 @@ public class TypeCastingDemo {
 
         double num = 20.76;
         System.out.println(num);
+        int b = (int) num;
+        System.out.println(b);
 
     }
 }
