@@ -24,7 +24,7 @@ class BMW extends Vehicle{
 
 
 class newBMWModel extends BMW{
-    public void ModelName(){
+    public void NewModelName(){
         System.out.println("BMW 2303");
     }
 }
@@ -34,6 +34,12 @@ public class MultipleInhriDemo {
 
 //        Multiple Inheritance
 
+        newBMWModel b1 = new newBMWModel();
+        b1.speed();
+        b1.engine();
+        b1.ModelName();
+        System.out.println(b1.isworking());
+        b1.NewModelName();
 
     }
 }
