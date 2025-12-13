@@ -14,5 +14,10 @@ public class TypeCastingDemo {
         System.out.println(a);
 
 
+//        Narrowing - from higher data type to lower one
+
+        double num = 20.76;
+        System.out.println(num);
+
     }
 }
