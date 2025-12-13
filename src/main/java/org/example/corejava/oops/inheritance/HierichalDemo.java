@@ -34,7 +34,9 @@ public class HierichalDemo {
         c1.run();
         c1.type();
 
-        
+        Truck t1 = new Truck();
+        t1.run();
+        t1.type();
 
 
     }
