@@ -20,6 +20,9 @@ public class MethodOverridingDemo {
         Shape s1 = new Shape();
         s1.draw();
 
+        Circle c1 = new Circle();
+        c1.draw();
+
 
     }
 }
