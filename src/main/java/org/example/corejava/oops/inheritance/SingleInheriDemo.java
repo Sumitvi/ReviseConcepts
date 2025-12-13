@@ -15,7 +15,7 @@ class Info{
 
 class SingleExe extends Info{
 
-    int age = 21;
+
 
     public void standard(){
         System.out.println(super.std);
@@ -33,7 +33,10 @@ public class SingleInheriDemo {
 
 //        Single Level Inheritance
 
-        SingleExe 
+        SingleExe e1 = new SingleExe();
+        e1.name();
+        e1.standard();
+        System.out.println(e1.getAge(22));
 
     }
 }
