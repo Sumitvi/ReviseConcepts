@@ -15,13 +15,21 @@ class Car extends VehicleDemo{
     }
 }
 
-class 
+class Truck extends VehicleDemo{
+    public static void type(){
+        System.out.println("Truck");
+    }
+}
+
+
 
 public class HierichalDemo {
 
     public static void main(String[] args) {
 
-//        Hierarchical Inheritance
+//        Hierarchical Inheritance - Ek parent class se multiple
+//        child classes inherit karti hain
+
 
     }
 }
