@@ -39,5 +39,9 @@ public class HierichalDemo {
         t1.type();
 
 
+//        Hybrid inheritance multiple inheritance types ka combination hota hai,
+//        jo Java me interfaces ke through achieve hota hai.
+
+
     }
 }
