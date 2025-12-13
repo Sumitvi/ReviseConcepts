@@ -30,6 +30,12 @@ public class HierichalDemo {
 //        Hierarchical Inheritance - Ek parent class se multiple
 //        child classes inherit karti hain
 
+        Car c1 = new Car();
+        c1.run();
+        c1.type();
+
+        
+
 
     }
 }
