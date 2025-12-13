@@ -13,5 +13,12 @@ public class ReverseStringDemo {
         }
 
         System.out.println(sb.toString());
+
+
+//        One Line Reverse
+
+        String s = "Sumit";
+        StringBuilder rev = new StringBuilder(new StringBuilder(s).reverse().toString());
+        System.out.println(rev);
     }
 }
