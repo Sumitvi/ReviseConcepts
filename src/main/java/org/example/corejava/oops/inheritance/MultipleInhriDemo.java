@@ -32,7 +32,7 @@ class newBMWModel extends BMW{
 public class MultipleInhriDemo {
     public static void main(String[] args) {
 
-//        Multiple Inheritance
+//        MultiLeval Inheritance
 
         newBMWModel b1 = new newBMWModel();
         b1.speed();
