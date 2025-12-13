@@ -41,5 +41,9 @@ public class MultipleInhriDemo {
         System.out.println(b1.isworking());
         b1.NewModelName();
 
+
+//        Java me multiple inheritance classes ke saath isliye nahi hota kyunki
+//        Diamond Problem ki wajah se ambiguity aati hai
+//        Java interfaces ke through is problem ko safely handle karta hai.
     }
 }
