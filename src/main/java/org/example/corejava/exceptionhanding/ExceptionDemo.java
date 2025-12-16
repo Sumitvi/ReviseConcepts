@@ -11,11 +11,18 @@ public class ExceptionDemo {
 
     public static void main(String[] args) {
 
+//        try{
+//            throw new ArithmeticException("Request fail due to Arthematic Exception");
+////            System.out.println(10/0);
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+
+
         try{
-            throw new ArithmeticException("Request fail due to Arthematic Exception");
-//            System.out.println(10/0);
+            throw new ArrayIndexOutOfBoundsException("Req fail due to Array Index out of bound");
         }catch (Exception e){
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
