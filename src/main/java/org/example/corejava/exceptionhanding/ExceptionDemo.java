@@ -1,8 +1,21 @@
 package org.example.corejava.exceptionhanding;
 
+
+
+//Exception - An unwanted event that disturb the normal excution of program
+//1.checked exception -  IOException , SQLException - handled by compiler
+//2. unchecked exception - Arthemetic , NullPointer , IndexOutOfBound - occurs at runtime
+
+
 public class ExceptionDemo {
 
     public static void main(String[] args) {
-        
+
+        try{
+            System.out.println(10/0);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 }
