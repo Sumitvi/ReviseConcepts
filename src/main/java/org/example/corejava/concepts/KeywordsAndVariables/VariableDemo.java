@@ -1,6 +1,5 @@
 package org.example.corejava.concepts.KeywordsAndVariables;
 
-import jdk.javadoc.internal.doclets.formats.html.taglets.UserTaglet;
 
 class Demo{
 
@@ -36,8 +35,9 @@ public class VariableDemo {
 
 
 
-
-
+//    Accessing Static Variable
+//        className.variableName
+        System.out.println(Demo.c);
 
     }
 }
