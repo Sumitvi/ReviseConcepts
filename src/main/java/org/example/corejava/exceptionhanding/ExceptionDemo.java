@@ -12,7 +12,8 @@ public class ExceptionDemo {
     public static void main(String[] args) {
 
         try{
-            System.out.println(10/0);
+            throw new ArithmeticException("Request fail due to Arthematic Exception");
+//            System.out.println(10/0);
         }catch (Exception e){
             e.printStackTrace();
         }
