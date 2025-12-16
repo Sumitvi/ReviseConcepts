@@ -10,7 +10,7 @@ public class InterViewDemoQue {
         try{
             throw new ArithmeticException("Req Fails Due to Arithmetic Exception");
         }catch (ArithmeticException e){
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e.getMessage());
         }catch (Exception e){
@@ -19,6 +19,13 @@ public class InterViewDemoQue {
 
 //        if i put exception class before then it wo'nt work bcz Exception is Parent class
 //        of AE and ArrayIndexOfBounds
-    
+
+
+//        finally - it will always runs weather exception occurs or not
+        finally {
+            System.out.println("Most Famous In India");
+        }
+
+
     }
 }
