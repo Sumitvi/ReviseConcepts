@@ -4,9 +4,22 @@ package org.example.corejava.concepts.KeywordsAndVariables;
 //This and Super Keyword
 
 class Animal{
-    
+
+    String name;
 }
 
+
+class Dog extends Animal{
+    String name ;
+
+    void print(){
+        this.name ="Bhuri";
+        super.name= "Animal";
+
+        System.out.println("Parent Name " + super.name);
+        System.out.println("Dog name " + this.name);
+    }
+}
 
 
 final  class sumit{
@@ -32,6 +45,7 @@ public class KeyWordDemo {
         final int  a  = 20;
         System.out.println(a);
 //        a = 30;
+        
 
 
     }
