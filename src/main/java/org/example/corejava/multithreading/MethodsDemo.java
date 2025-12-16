@@ -27,6 +27,7 @@ public class MethodsDemo {
 //        Thread Priority Method
         t1.setPriority(Thread.MIN_PRIORITY);
 //        t2.setPriority(Thread.NORM_PRIORITY);
+        t2.setPriority(Thread.MIN_PRIORITY);
 
 
     }
