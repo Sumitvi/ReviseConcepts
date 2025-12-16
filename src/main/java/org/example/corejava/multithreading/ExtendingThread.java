@@ -21,6 +21,9 @@ public class ExtendingThread {
 //        Executing multiple threads simultaneously
 //        within a single process is called multithreading.
 
+//        The Output is unpredictable it totally depends on thread scheduling
+
+
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
 
@@ -30,6 +33,8 @@ public class ExtendingThread {
         t1.start();
         t2.start();
 
+//        we use start() intead of run() bcz start() creates new threat while
+//        run excute like normal function
 
     }
 
