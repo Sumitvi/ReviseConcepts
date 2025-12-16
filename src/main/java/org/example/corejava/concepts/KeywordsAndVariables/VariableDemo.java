@@ -39,5 +39,14 @@ public class VariableDemo {
 //        className.variableName
         System.out.println(Demo.c);
 
+//        type of access modifiers
+//        1. default - when no access modifiers applied
+//        2. public - can access everywhere
+//        3. private - accessible within the class
+//        4. protected - within same package + subclass
+
+
+
+
     }
 }
