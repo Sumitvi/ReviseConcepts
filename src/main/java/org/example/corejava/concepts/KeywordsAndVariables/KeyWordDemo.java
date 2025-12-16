@@ -2,6 +2,8 @@ package org.example.corejava.concepts.KeywordsAndVariables;
 
 
 //This and Super Keyword
+//this  - refers to current class object
+//super - refers to parent class object
 
 class Animal{
 
@@ -12,7 +14,7 @@ class Animal{
 class Dog extends Animal{
     String name ;
 
-    void print(){
+    void printName(){
         this.name ="Bhuri";
         super.name= "Animal";
 
@@ -45,8 +47,9 @@ public class KeyWordDemo {
         final int  a  = 20;
         System.out.println(a);
 //        a = 30;
-        
 
 
+        Dog d1 = new Dog();
+        d1.printName();
     }
 }
