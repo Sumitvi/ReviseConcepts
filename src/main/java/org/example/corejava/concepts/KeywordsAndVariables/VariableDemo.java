@@ -1,8 +1,28 @@
 package org.example.corejava.concepts.KeywordsAndVariables;
 
+import jdk.javadoc.internal.doclets.formats.html.taglets.UserTaglet;
+
 class Demo{
-    
+
+    int a = 20;  // instance variable
+    static int c = 20; // static variable
+
+
+    public void Age(){
+        int b = 30; // local variable
+//        static int c = 20; // static variable not allowed
+
+        System.out.println(b);
+    }
+
+//    public void count(){
+//        static int d = 40; static variable not allowed
+//    }
+
+
+//    Java me static sirf class ke liye hota hai, method ke andar nahi.
 }
+
 
 
 
@@ -15,7 +35,6 @@ public class VariableDemo {
 //        3. static - aise variable jo static keyword se bane ho
 
 
-         int a = 20;
 
 
 
