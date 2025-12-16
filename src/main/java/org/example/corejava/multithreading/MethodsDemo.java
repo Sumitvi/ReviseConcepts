@@ -10,6 +10,8 @@ class MyDemo implements Runnable{
         }
     }
 }
+
+
 public class MethodsDemo {
 
     public static void main(String[] args) {
@@ -27,7 +29,12 @@ public class MethodsDemo {
 //        Thread Priority Method
         t1.setPriority(Thread.MIN_PRIORITY);
 //        t2.setPriority(Thread.NORM_PRIORITY);
-        t2.setPriority(Thread.MIN_PRIORITY);
+//        t2.setPriority(Thread.MIN_PRIORITY);
+        t2.setPriority(6);
+
+//        yield() - for CPU share request
+//        join() - Dusre thread ka wait ke liye
+//        sleep() - for Delay / Pause
 
 
     }
