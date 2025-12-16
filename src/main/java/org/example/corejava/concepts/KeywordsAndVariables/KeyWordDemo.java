@@ -1,5 +1,27 @@
 package org.example.corejava.concepts.KeywordsAndVariables;
 
+
+//This and Super Keyword
+
+class Animal{
+    
+}
+
+
+
+final  class sumit{
+    public void name(){
+        System.out.println("Sumit");
+    }
+
+}
+
+//class std extends sumit{
+//
+//}
+
+//we can'nt extend the final class
+
 public class KeyWordDemo {
 
     public static void main(String[] args) {
