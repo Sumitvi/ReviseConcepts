@@ -1,6 +1,4 @@
-package org.example.corejava;
-
-import java.util.Arrays;
+package org.example.corejava.mss;
 
 public class ArraysDemo {
 

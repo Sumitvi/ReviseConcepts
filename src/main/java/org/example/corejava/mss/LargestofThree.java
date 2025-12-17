@@ -1,4 +1,4 @@
-package org.example.corejava;
+package org.example.corejava.mss;
 import java.util.*;
 
 public class LargestofThree {
