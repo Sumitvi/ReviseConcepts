@@ -21,5 +21,16 @@ public class ListDemo {
             System.out.println("List is Empty");
         }
 
+//        getting index wise
+        System.out.println(res.get(3));
+
+//        iterating
+
+        for(int data : res){
+            System.out.println(data);
+        }
+
+
+
     }
 }
