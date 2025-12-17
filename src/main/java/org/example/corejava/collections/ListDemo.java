@@ -15,6 +15,8 @@ public class ListDemo {
 
         System.out.println(res);
 
+
+
 //        Checking empty List
 
         if(res.isEmpty()){
@@ -31,6 +33,11 @@ public class ListDemo {
         }
 
 
+        //        removing element
+
+        res.remove(2);
+
+        System.out.println(res);
 
     }
 }
