@@ -28,8 +28,15 @@ public class JDBCExample {
 
         Statement statement = conn.createStatement();
 
+//        create query
+        String query = "select * from students";
 
+
+//        Excute Query
         
+
+
+
 
 
     }
