@@ -3,6 +3,7 @@ package org.example.corejava;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import static java.lang.Class.forName;
 
@@ -23,7 +24,12 @@ public class JDBCExample {
 //        Make Connection
         Connection conn = DriverManager.getConnection(URL , USERNAME , PASSWORD);
 
-//        
+//        Create Statement
+
+        Statement statement = conn.createStatement();
+
+
+        
 
 
     }
