@@ -1,9 +1,6 @@
 package org.example.corejava;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 import static java.lang.Class.forName;
 
@@ -33,6 +30,8 @@ public class JDBCExample {
 
 
 //        Excute Query
+        ResultSet resultSet = statement.executeQuery(query);
+
         
 
 
