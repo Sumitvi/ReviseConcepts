@@ -27,6 +27,13 @@ public class SetDemo {
 
         System.out.println(names);
 
+        if(set.contains(1)){
+            set.remove(0);
+            System.out.println("Excuted");
+        }
+
+        System.out.println(set);
+
 
 
 
