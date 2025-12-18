@@ -32,7 +32,13 @@ public class JDBCExample {
 //        Excute Query
         ResultSet resultSet = statement.executeQuery(query);
 
-        
+
+        while(resultSet.next()){
+
+            int id = resultSet.getInt("id");
+            String name = resultSet.getString("name");
+            String course = resultSet.getString("course");
+        }
 
 
 
