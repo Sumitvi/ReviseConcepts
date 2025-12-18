@@ -38,6 +38,10 @@ public class JDBCExample {
             int id = resultSet.getInt("id");
             String name = resultSet.getString("name");
             String course = resultSet.getString("course");
+
+            System.out.println("Id " + " " + id);
+            System.out.println("Name " + " " + name);
+            System.out.println("Course " + " " + course);
         }
 
 
