@@ -1,5 +1,9 @@
 package org.example.corejava;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import static java.lang.Class.forName;
 
 public class JDBCExample {
@@ -10,12 +14,16 @@ public class JDBCExample {
     public static String USERNAME = "root";
 
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
 //        Load Driver
         Class.forName(LOAD_DRIVER);
 
-        
+
+//        Make Connection
+        Connection conn = DriverManager.getConnection(URL , USERNAME , PASSWORD);
+
+//        
 
 
     }
