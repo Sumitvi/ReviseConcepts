@@ -45,6 +45,10 @@ public class JDBCExample {
         }
 
 
+//        close connection
+
+        conn.close();
+
 
 
 
