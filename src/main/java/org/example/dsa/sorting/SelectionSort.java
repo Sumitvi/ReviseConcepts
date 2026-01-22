@@ -17,6 +17,10 @@ public class SelectionSort {
 
 //            swap
 
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+
         }
 
     }
