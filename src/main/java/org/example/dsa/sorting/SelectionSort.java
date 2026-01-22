@@ -15,7 +15,8 @@ public class SelectionSort {
                 }
             }
 
-//             
+//            swap
+
         }
 
     }
